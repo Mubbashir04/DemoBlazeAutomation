@@ -1,0 +1,22 @@
+# Maven
+target/
+
+# TestNG
+test-output/
+
+# Screenshots
+screenshots/
+
+# Logs
+logs/
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# Java
+*.class
+
+# Archive
+src/test/java/archive/
