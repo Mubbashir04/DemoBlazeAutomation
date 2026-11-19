@@ -1,123 +1,147 @@
-DemoBlaze Automation Framework
+# 🚀 DemoBlaze Automation Framework
 
-Project Overview
+## 📌 Project Overview
+
 This project is an end-to-end Selenium Automation Framework developed for automating the DemoBlaze e-commerce application.
 
-The framework is built using:
-	Java
-	Selenium WebDriver
-	TestNG
-	Cucumber BDD
-	Apache POI
-	Maven
-	Git & GitHub
+### Technologies Used
 
-The project demonstrates data-driven testing, page object model implementation, screenshot capture for failed scenarios, and automated reporting.
+- Java
+- Selenium WebDriver
+- TestNG
+- Cucumber BDD
+- Apache POI
+- Maven
+- Git
+- GitHub
 
-Technology Stack
-Technology			Purpose
-Java				Programming Language
-Selenium WebDriver	Browser Automation
-TestNG				Test Execution Framework
-Cucumber			BDD Framework
-Apache POI			Excel Data Handling
-Maven				Dependency Management
-Git					Version Control
-GitHub				Repository Hosting
+---
 
-Framework Features
-Page Object Model (POM)
-Page classes:
-	HomePage
-	LoginPage
-	SignUpPage
-	ProductPage
-	CartPage
-	PurchasePage
+## ✅ Framework Features
 
-Cucumber Features
+### 1. Page Object Model (POM)
+
+Implemented page classes:
+
+- HomePage
+- LoginPage
+- SignUpPage
+- ProductPage
+- CartPage
+- PurchasePage
+
+### 2. Cucumber Features
+
 Implemented feature files:
-	Login.feature
-	Signup.feature
-	Purchase.feature
-	Data-Driven Testing
-	Excel file used:
 
+- Login.feature
+- Signup.feature
+- Purchase.feature
+
+### 3. Data-Driven Testing
+
+Excel file:
+
+```text
 DemoblazeData.xlsx
+```
 
-Implemented with:
-	ExcelReader.java
-	ExcelDataProvider.java
-	LoginExcelTest.java
+Implemented using:
 
-Screenshot Capture
-Automatic screenshot capture for failed test scenarios using:
-	ScreenshotUtility.java
+- ExcelReader.java
+- ExcelDataProvider.java
+- LoginExcelTest.java
 
-Integrated through:
-	Hooks.java
+### 4. Screenshot Capture
 
-Reporting
-Generated Reports:
-	Cucumber HTML Report
-	Cucumber JSON Report
+Automatic screenshot capture for failed scenarios.
 
-Location:
-	target/
+Implemented using:
 
-Project Structure
+- ScreenshotUtility.java
+- Hooks.java
+
+### 5. Reporting
+
+Generated reports:
+
+- Cucumber HTML Report
+- Cucumber JSON Report
+
+---
+
+## 📂 Project Structure
+
+```text
 DemoBlazeAutomation
 │
-├── src/test/java
-│ ├── hooks
-│ ├── pages
-│ ├── runners
-│ ├── stepDefinitions
-│ ├── tests
-│ └── utilities
+├── hooks
+├── pages
+├── runners
+├── stepDefinitions
+├── tests
+├── utilities
 │
-├── src/test/resources
-│ ├── config
-│ ├── features
-│ └── testdata
+├── features
+├── config
+├── testdata
 │
 ├── pom.xml
 └── README.md
+```
 
-Executed Test Scenarios
-Login
-	User launches application
-	User enters credentials
-	User clicks login
+---
 
-Signup
-	User registers with user credentials
-	Alert validation performed
+## 🧪 Automated Test Scenarios
 
-Purchase
-	Product selection
-	Add to cart
-	Place order
-	Purchase confirmation validation
+### Login
 
-How To Run
-Clone Repository
-	git clone https://github.com/Mubbashir04/DemoBlazeAutomation.git
- 
-Import Project
-Import the project as:
-	Existing Maven Project in Eclipse.
+1. Launch application
+2. Click Login
+3. Enter credentials
+4. Verify login
 
-Execute Cucumber Tests
+### Signup
+
+1. Open Signup dialog
+2. Enter user details
+3. Submit registration
+4. Verify alert
+
+### Purchase
+
+1. Select product
+2. Add product to cart
+3. Place order
+4. Enter details
+5. Verify confirmation
+
+---
+
+## ▶️ How To Run
+
+### Execute Cucumber Tests
+
 Run:
+
+```text
 TestRunner.java
+```
 
-Execute Excel Driven Test
+### Execute Excel Driven Test
+
 Run:
+
+```text
 LoginExcelTest.java
+```
 
-Author
-Mubbashir M Khan
+---
 
-GitHub:
+## 👨‍💻 Author
+
+**Mubbashir Ahmad**
+
+GitHub Profile:
+
 https://github.com/Mubbashir04
