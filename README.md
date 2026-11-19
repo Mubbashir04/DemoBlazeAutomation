@@ -140,7 +140,7 @@ LoginExcelTest.java
 
 ## 👨‍💻 Author
 
-**Mubbashir Ahmad**
+**Mubbashir M Khan**
 
 GitHub Profile:
 
